@@ -1,0 +1,14 @@
+{
+  "name": "patrick",
+  "owner": {
+    "name": "Ian Jaffrey"
+  },
+  "plugins": [
+    {
+      "name": "patrick",
+      "source": "./",
+      "description": "Patrick: audit a repo, triage, and run supervised sprints with receipts."
+    }
+  ],
+  "description": "Patrick: a verification and reasoning layer for AI-run development work."
+}
