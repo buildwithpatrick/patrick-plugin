@@ -8,7 +8,7 @@ You need an approved invite (request one at https://buildwithpatrick.io), a GitH
 
 ## Steps
 
-1. Install the plugin: `/plugin install patrick --marketplace ijaffrey/patrick-plugin`.
+1. Install the plugin: `/plugin install patrick --marketplace buildwithpatrick/patrick-plugin`.
 2. Connect the Patrick server when Claude asks, and sign in with GitHub. Approve the permissions shown on the consent screen. If you see a waiting message, your invite has not been approved yet.
 3. Ask Claude to start a Patrick session. Patrick answers with the one step to take next.
 4. Install Patrick's GitHub App on the repository you want it to work in, using the link Patrick gives you.
