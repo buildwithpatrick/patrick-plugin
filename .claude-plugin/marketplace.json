@@ -1,6 +1,6 @@
 {
   "name": "patrick",
-  "owner": {
+  "owner": "owner": { "name": "Patrick" },
     "name": "Ian Jaffrey"
   },
   "plugins": [
