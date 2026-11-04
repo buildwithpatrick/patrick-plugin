@@ -4,7 +4,7 @@ Patrick is a verification and reasoning layer for AI-run development work. It au
 
 ## Install
 
-    /plugin install patrick --marketplace ijaffrey/patrick-plugin
+    /plugin install patrick --marketplace buildwithpatrick/patrick-plugin
 
 ## Setup
 
