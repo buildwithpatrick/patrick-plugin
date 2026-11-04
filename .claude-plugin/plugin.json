@@ -1,4 +1,11 @@
-"author": {
-  "name": "Patrick",
-  "url": "https://buildwithpatrick.io"
-},
+{
+  "name": "patrick",
+  "description": "Patrick: a verification and reasoning layer for AI-run development work. Audit a repo, triage, and run supervised sprints with receipts.",
+  "version": "0.1.1",
+  "author": {
+    "name": "Patrick",
+    "url": "https://buildwithpatrick.io"
+  },
+  "homepage": "https://buildwithpatrick.io",
+  "license": "MIT"
+}
