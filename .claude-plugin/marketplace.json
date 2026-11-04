@@ -1,7 +1,7 @@
 {
   "name": "patrick",
-  "owner": "owner": { "name": "Patrick" },
-    "name": "Ian Jaffrey"
+  "owner": {
+    "name": "Patrick"
   },
   "plugins": [
     {
