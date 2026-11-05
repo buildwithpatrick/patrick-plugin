@@ -12,4 +12,4 @@ Patrick is invite-only for now. Request an invite at https://buildwithpatrick.io
 
 ## What stays where
 
-Your backlog, handoffs and receipts live in your own repository. This plugin contains only the skills and the server connection, with no tokens or secrets.
+Your backlog, handoffs and receipts live in your own repository. This plugin contains only the skills and the server connection, with no tokens or secrets. /patrick-audit also reads your working tree with your own Claude; that read is not sent to Patrick.
