@@ -7,7 +7,7 @@ description: Audit the current repository with Patrick and with your own read of
 
 This audit has two parts: Patrick's audit of the repository on GitHub, and a local read of the working tree done by your own Claude with its own tools. The local read is not sent to Patrick.
 
-1. **Check the working directory.** Run `git rev-parse --show-toplevel`. If it fails, say the working directory is not a git repository and skip the local read. If a remote exists (`git remote get-url origin`), still offer Patrick's audit.
+1. **Check the working directory.** Run `git rev-parse --show-toplevel`. If it fails, say the working directory is not a git repository (tell the person to clone their repository and start Claude Code inside it), skip the local read, and ask which repository to audit with Patrick (`owner/name`). If it succeeds, find the remote with `git remote get-url origin`.
 
 2. **Local read, by your own Claude.** Use your own tools in the working tree:
    - List tracked files with `git ls-files`. Skip vendored folders (for example `node_modules`, `vendor`, `third_party`), lock files and binary files.
