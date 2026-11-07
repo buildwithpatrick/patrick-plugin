@@ -17,7 +17,7 @@ Clone the repository to your computer and start Claude Code from inside that fol
 4. Install Patrick's GitHub App on the repository you want it to work in, using the link Patrick gives you. On GitHub's install page choose Only select repositories and pick that one repository (the page may default to All repositories).
 5. Tell Claude: `connect owner/name` (for example `connect acme/widgets`). Patrick connects the repository and gives a first read: what it found, how many files it scanned for secrets, and what is worth doing first.
 6. Say `draft my first briefs`. Patrick writes up to three briefs, scores each, and opens them as pull requests for you to review and merge. The drafting runs in your own Claude Code, in a local clone of the repository.
-7. Then say `build <brief id>`. Patrick gives you a prompt to paste into Claude Code opened in a local clone of the repository. It works on a branch and opens a pull request.
+7. Then say `build <brief id>`. Patrick gives you a prompt to paste into a new Claude Code session, started in a local clone of the repository. It works on a branch and opens a pull request.
 8. Review and merge the pull request. Patrick records the receipt, with the merge commit and pull request number, in your own repository.
 
 ## Good to know
@@ -30,4 +30,6 @@ Clone the repository to your computer and start Claude Code from inside that fol
 
 ## If something goes wrong
 
-Tell Claude exactly what Patrick printed. Do not paste tokens or secrets into the chat.
+If Patrick shows as disconnected, run `/mcp`, choose patrick, reconnect, then retry what you were doing.
+
+Otherwise, tell Claude exactly what Patrick printed. Do not paste tokens or secrets into the chat.
